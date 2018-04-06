@@ -1,0 +1,10 @@
+.gradle/*
+.project
+.classpath
+**/.settings
+**/.git
+.calss
+**/bin
+**/.*
+**/.
+
