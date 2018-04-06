@@ -1,0 +1,7 @@
+rootProject.name = 'osrdc'
+
+include 'osrdc-web'
+include 'osrdc-frame','osrdc-frame:osrdc-frame-cache','osrdc-frame:osrdc-frame-session','osrdc-frame:osrdc-frame-database'
+include 'osrdc-core','osrdc-core:osrdc-core-req','osrdc-core:osrdc-core-dev','osrdc-core:osrdc-core-test'
+include 'osrdc-cloud','osrdc-cloud:osrdc-cloud-marathon','osrdc-cloud:osrdc-cloud-mesos','osrdc-cloud:osrdc-cloud-docker'
+include 'osrdc-base','osrdc-base:osrdc-base-gitlab','osrdc-base:osrdc-base-jekins','osrdc-base:osrdc-base-online-doc'
