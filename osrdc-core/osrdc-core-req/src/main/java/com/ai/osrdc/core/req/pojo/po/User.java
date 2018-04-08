@@ -1,4 +1,4 @@
-package com.asiainfo.core.req.pojo.po;
+package com.ai.osrdc.core.req.pojo.po;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,13 +1,13 @@
-package com.asiainfo.core.req.service;
+package com.ai.osrdc.core.req.service;
 
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.asiainfo.core.req.dao.UserDao;
-import com.asiainfo.core.req.pojo.po.User;
-import com.asiainfo.core.req.pojo.vo.UserVO;
+import com.ai.osrdc.core.req.dao.UserDao;
+import com.ai.osrdc.core.req.pojo.po.User;
+import com.ai.osrdc.core.req.pojo.vo.UserVO;
 
 @Service
 @Transactional

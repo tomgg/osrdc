@@ -1,4 +1,4 @@
-package com.asiainfo.core.req.pojo.vo;
+package com.ai.osrdc.core.req.pojo.vo;
 
 public class UserVO {
 	public long id;

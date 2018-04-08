@@ -1,12 +1,12 @@
-package com.asiainfo.core.req.web;
+package com.ai.osrdc.core.req.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.asiainfo.core.req.pojo.vo.UserVO;
-import com.asiainfo.core.req.service.UserSVImpl;
+import com.ai.osrdc.core.req.pojo.vo.UserVO;
+import com.ai.osrdc.core.req.service.UserSVImpl;
 
 @RestController
 @RequestMapping("/user")

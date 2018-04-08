@@ -1,4 +1,4 @@
-package com.asiainfo.core.req;
+package com.ai.osrdc.core.req;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

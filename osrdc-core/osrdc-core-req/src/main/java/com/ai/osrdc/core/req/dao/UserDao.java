@@ -1,8 +1,8 @@
-package com.asiainfo.core.req.dao;
+package com.ai.osrdc.core.req.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.asiainfo.core.req.pojo.po.User;
+import com.ai.osrdc.core.req.pojo.po.User;
 
 public interface  UserDao extends JpaRepository<User, Long> {
 	User findByName(String name);
